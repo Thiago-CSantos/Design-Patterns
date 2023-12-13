@@ -3,8 +3,9 @@ package org.thc.criacional;
 public class FactoryMethodParameter_ex02 {
 
     @SuppressWarnings("unused")
-    public static void main(String[] args) {
-
+    public void main(String[] args) {
+        Categoria categoria = new Categoria();
+        Produto produtoDigital = categoria.novoProduto(TypeProductEnum.DIGITAL);
     }
     // Produto -> ProdutoFactory opcional colocar 'Factory'
     // ProcessadorPagamento -> ProcessadorPagamentoFactory
@@ -39,13 +40,17 @@ public class FactoryMethodParameter_ex02 {
 
         // ...
 
-        public Produto novoProduto(int tipoProduto) {
-            return switch (tipoProduto) {
-                case 1 -> new ProdutoPadrao();
-                case 2 -> new ProdutoDigital();
-                case 3 -> new ProdutoFisico();
-                default -> throw new IllegalArgumentException();
-            };
+        public Produto novoProduto(TypeProductEnum tipoProduto) {
+            switch (tipoProduto) {
+                case PADRAO:
+                    return new ProdutoPadrao();
+                case DIGITAL:
+                    return new ProdutoDigital();
+                case FISICO:
+                    return new ProdutoFisico();
+                default:
+                    throw new IllegalArgumentException();
+            }
         }
     }
 
