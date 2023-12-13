@@ -8,8 +8,8 @@ package org.thc.criacional;
 
 /**
  * Vantagens:
- *      -Permite trabalhar com hierarquias paralelas
- *      -Mais flexibilidade para criação de objetos
+ * -Permite trabalhar com hierarquias paralelas
+ * -Mais flexibilidade para criação de objetos
  */
 
 public class FactoryMethod_ex01 {
@@ -31,10 +31,12 @@ public class FactoryMethod_ex01 {
 
     // Produto Concreto
     class ProdutorFisisco implements Produto {
+        // metodos da classe e atributos
     }
 
     // Produto Concreto
     class ProdutorDigital implements Produto {
+        // metodos da classe e atributos
     }
 
     // Criador Abstrato
