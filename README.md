@@ -19,5 +19,5 @@ Para executar este exemplo, basta executar o arquivo `main.java`. Ele criará ob
 <a href="https://www.amazon.com.br/s?k=design+patterns+elements+of+reusable+object-oriented+software&adgrpid=1140194216435987&hvadid=71262224875612&hvbmt=be&hvdev=m&hvlocphy=688&hvnetw=o&hvqmt=e&hvtargid=kwd-71262654311736%3Aloc-20&hydadcr=5776_11235471&tag=msndesktopsta-20&ref=pd_sl_6hr3cduj3e_e">Aqui está o link para o livro “Design Patterns: Elements of Reusable Object-Oriented Software” na Amazon.com.br</a>
 O livro foi escrito por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides e é considerado um clássico moderno na área de programação orientada a objetos.
 
-## Todo estudo foi assistido e baseado nesse repositorio: <a href="https://github.com/rinaldodev/design-patterns/tree/main/src/main/java/dev/rinaldo/designpatterns/creational">ReinaldoDev</a>
+## Todo estudo foi assistido e baseado nesse repositorio: <a href="https://github.com/rinaldodev/design-patterns/tree/main/src/main/java/dev/rinaldo/designpatterns/creational">RinaldoDev</a>
 - Aula assistida: <a href="https://www.youtube.com/watch?v=-e9bFrcxG9E&t=384s">Torne FLEXÍVEL a CRIAÇÃO de objetos com FACTORY METHODS!</a>
